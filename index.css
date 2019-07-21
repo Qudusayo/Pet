@@ -1,0 +1,209 @@
+body{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+/* Total Body  */
+#total{
+    width: 320px;
+    height: 533px;
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 200px;
+}
+
+/* complete head */
+#head{
+    width: 60%;
+    height: 160px;
+    background-color: rgba(65, 202, 65, 0.849);
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    z-index: 1;
+}
+
+/* Both eye brow */
+span{
+    width: 2px;
+    height: 10px;
+    margin: 0 3px;
+    background-color: black;
+}
+
+/* Left eye brow */
+#lefts{
+    display: flex;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 26px;
+    transform: rotate(160deg);
+}
+
+/* Right eye brow */
+#rights{
+    display: flex;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 130px;
+    transform: rotate(200deg);
+}
+
+/* Both eyes */
+.eyes{
+    display: flex;
+    margin-top: 0%;
+}
+
+/* The Large White position each */
+.eye{
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 20% 15%;
+    /* z-index: 1; */
+}
+
+/* The Green eye panel each */
+.pupil{
+    margin-left: 8%;
+    background-color: lightgreen;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+/* The black splot */
+.iris{
+    margin-left: 8%;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%; 
+}
+
+/* The small moving white ball */
+.wh{
+    margin-left: 30%;
+    margin-top: 0%;
+    background-color: white;
+    width: 9px;
+    height: 10px;
+    border-radius: 100%; 
+    animation: watch 5s infinite ease;
+}
+@keyframes watch{
+    0%{margin-left: 30%;margin-top: 0%;
+    }
+    50%{margin-left: 50%;margin-top: 12%;
+    }
+    100%{margin-left: 30%;margin-top: 0%;
+    }
+}
+
+/* The nose */
+.nose{
+    background-color: indianred;
+    width: 30px;
+    height: 30px;
+    margin-left: 43%;
+    margin-top: -10%;
+    border-bottom-right-radius: 100%;
+    transform: rotate(225deg)
+}
+
+/* The body with white background */
+#body{
+    width: 59.3%;
+    height: 180px;
+    background-color: white;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border: 1px solid rgba(65, 202, 65, 0.849);
+}
+
+/* Both hands */
+#hands{
+    display: flex;
+    margin-left: -40%;
+    margin-top: 50%;
+}
+
+/* Both hands each */
+.hand{
+    background-color: rgb(206, 40, 206);
+    width: 100px;
+    height: 80px;
+    margin: -76% 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border: 1px solid black;
+    z-index: -1;
+}
+
+/* Left Hand */
+#lhand{
+    transform: rotate(50deg);
+}
+
+/* Right hand */
+#rhand{
+    transform: rotate(310deg);
+}
+
+/* Both Legs */
+#legs{
+    display: flex;
+    margin-left: 0%;
+    margin-top: 50%;
+}
+
+/* Both legs each */
+.leg{
+    background-color: rgb(235, 95, 235);
+    width: 7px;
+    height: 60px;
+    margin: -110% 14%;
+    z-index: -1;
+}
+
+/* Right leg left ankle */
+#rank1{
+    background-color: rgb(235, 95, 235);
+    width: 5px;
+    height: 20px;
+    margin-top: -97%;
+    margin-left: 12%;
+    transform: rotate(45deg);
+}
+
+/* Left leg right ankle */
+#rank2{
+    background-color: rgb(235, 95, 235);
+    width: 5px;
+    height: 20px;
+    margin-top: -6%;
+    margin-left: 42%;
+    transform: rotate(45deg);
+}
+
+/* Left leg right ankle */
+#lank1{
+    background-color: rgb(235, 95, 235);
+    width: 5px;
+    height: 20px;
+    margin-top: -6.5%;
+    margin-left: 17%;
+    transform: rotate(315deg);
+}
+
+/* Right leg right ankle */
+#lank2{
+    background-color: rgb(235, 95, 235);
+    width: 5px;
+    height: 20px;
+    margin-top: -6.5%;
+    margin-left: 47%;
+    transform: rotate(315deg);
+}
